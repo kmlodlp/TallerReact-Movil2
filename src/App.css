@@ -1,10 +1,22 @@
+body {
+  background-image: url("assets/Post-Fondo.jpg");
+}
 
 .Per-Container {
-  width: 90%;
-  height: 90%;
+  width: 75%;
+  height: 100%;
   flex-direction: column;
-  background-color: lightgrey;
+  /* background-image: url("assets/Fondo1.jpg"); */
+  background-color: rgba(211, 211, 211, 0.599);
   margin: 2px auto;
+}
+
+.Pers-Container{
+    width: 98%;
+    height: 100vh;
+    background-color: rgba(211, 211, 211, 0.599);
+    padding-top: 14px;
+    margin: 2px auto;
 }
 
 .container {
@@ -14,7 +26,25 @@
 
 .card {
   margin-left: 23px;
-  width: 40%;
+  width: 60%;
+}
+
+.cards {
+  margin-left: 8px;
+  width: 35%;
+}
+
+.Imgs{
+  width: 10%;
+  height: 70%;
+}
+
+.listbg {
+  width: 90%;
+  background-color: rgba(8, 0, 255, 0.543);
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  color: aliceblue;
 }
 
 .text-description {

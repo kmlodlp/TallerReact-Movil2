@@ -8,9 +8,9 @@ export const PerfilPage = () => {
             <div className="Per-Container d-flex justify-content-center">
                 <div className="container mt-4 ">
                     <div className="card mb-3" >
-                        <div className="row ">
+                        <div className="row g-0">
                             <div className="col-md-4">
-                                <img src="`${DatosPercil.img}`" alt="" />
+                                <img src={DatosPerfil.img} alt="Imagen" width='100%' height='100%' />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
